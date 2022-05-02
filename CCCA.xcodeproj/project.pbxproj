@@ -14,6 +14,10 @@
 		D6513B42281FE47A00467774 /* CCCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6513B41281FE47A00467774 /* CCCATests.swift */; };
 		D6513B4C281FE47A00467774 /* CCCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6513B4B281FE47A00467774 /* CCCAUITests.swift */; };
 		D6513B4E281FE47A00467774 /* CCCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6513B4D281FE47A00467774 /* CCCAUITestsLaunchTests.swift */; };
+		D6513B5E28200E8200467774 /* AdaLovelace.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D6513B5D28200E8200467774 /* AdaLovelace.jpeg */; };
+		D6513B6028200EF000467774 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6513B5F28200EF000467774 /* CircleImage.swift */; };
+		D6513B62282011CE00467774 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6513B61282011CE00467774 /* MapView.swift */; };
+		D6513B642820173200467774 /* Ada.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D6513B632820173200467774 /* Ada.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		D6513B47281FE47A00467774 /* CCCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6513B4B281FE47A00467774 /* CCCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCCAUITests.swift; sourceTree = "<group>"; };
 		D6513B4D281FE47A00467774 /* CCCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6513B5D28200E8200467774 /* AdaLovelace.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AdaLovelace.jpeg; path = ../../../../Downloads/AdaLovelace.jpeg; sourceTree = "<group>"; };
+		D6513B5F28200EF000467774 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		D6513B61282011CE00467774 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D6513B632820173200467774 /* Ada.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ada.jpeg; path = ../../../../Downloads/Ada.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,11 @@
 		D6513B2F281FE47800467774 /* CCCA */ = {
 			isa = PBXGroup;
 			children = (
+				D6513B5C28200E3600467774 /* Ressources */,
 				D6513B30281FE47800467774 /* CCCAApp.swift */,
 				D6513B32281FE47800467774 /* ContentView.swift */,
+				D6513B5F28200EF000467774 /* CircleImage.swift */,
+				D6513B61282011CE00467774 /* MapView.swift */,
 				D6513B34281FE47A00467774 /* Assets.xcassets */,
 				D6513B36281FE47A00467774 /* Preview Content */,
 			);
@@ -109,6 +120,7 @@
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		D6513B40281FE47A00467774 /* CCCATests */ = {
 			isa = PBXGroup;
@@ -125,6 +137,15 @@
 				D6513B4D281FE47A00467774 /* CCCAUITestsLaunchTests.swift */,
 			);
 			path = CCCAUITests;
+			sourceTree = "<group>";
+		};
+		D6513B5C28200E3600467774 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				D6513B632820173200467774 /* Ada.jpeg */,
+				D6513B5D28200E8200467774 /* AdaLovelace.jpeg */,
+			);
+			path = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6513B5E28200E8200467774 /* AdaLovelace.jpeg in Resources */,
 				D6513B38281FE47A00467774 /* Preview Assets.xcassets in Resources */,
+				D6513B642820173200467774 /* Ada.jpeg in Resources */,
 				D6513B35281FE47A00467774 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6513B33281FE47800467774 /* ContentView.swift in Sources */,
+				D6513B62282011CE00467774 /* MapView.swift in Sources */,
 				D6513B31281FE47800467774 /* CCCAApp.swift in Sources */,
+				D6513B6028200EF000467774 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
