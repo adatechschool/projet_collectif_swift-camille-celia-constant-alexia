@@ -18,6 +18,7 @@
 		D6513B6028200EF000467774 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6513B5F28200EF000467774 /* CircleImage.swift */; };
 		D6513B62282011CE00467774 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6513B61282011CE00467774 /* MapView.swift */; };
 		D6513B642820173200467774 /* Ada.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D6513B632820173200467774 /* Ada.jpeg */; };
+		D6513B682820257800467774 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = D6513B672820257700467774 /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		D6513B5F28200EF000467774 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		D6513B61282011CE00467774 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		D6513B632820173200467774 /* Ada.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ada.jpeg; path = ../../../../Downloads/Ada.jpeg; sourceTree = "<group>"; };
+		D6513B672820257700467774 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		D6513B24281FE47800467774 = {
 			isa = PBXGroup;
 			children = (
+				D6513B672820257700467774 /* landmarkData.json */,
 				D6513B2F281FE47800467774 /* CCCA */,
 				D6513B40281FE47A00467774 /* CCCATests */,
 				D6513B4A281FE47A00467774 /* CCCAUITests */,
@@ -255,6 +258,7 @@
 				D6513B5E28200E8200467774 /* AdaLovelace.jpeg in Resources */,
 				D6513B38281FE47A00467774 /* Preview Assets.xcassets in Resources */,
 				D6513B642820173200467774 /* Ada.jpeg in Resources */,
+				D6513B682820257800467774 /* landmarkData.json in Resources */,
 				D6513B35281FE47A00467774 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

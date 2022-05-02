@@ -31,7 +31,7 @@ struct ContentView: View {
                 .foregroundColor(.secondary)
                 Divider()
                     .frame(height:5)
-                    .background(.pink)
+                    .background(.blue)
                 Text("About Ada")
                     .font(.title2)
                 Text("Description")
