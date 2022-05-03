@@ -1,49 +1,51 @@
 //
-//  ContentView.swift
+//  LandmarkDetails.swift
 //  CCCA
 //
-//  Created by Camille FOL on 02/05/2022.
+//  Created by Camille FOL on 03/05/2022.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct LandmarkDetail: View {
+    var landmark: Landmark
+    
     var body: some View {
-//VStack = div et chaque élements dans le Vstack sont modifiables avec lignes en dessous
-        VStack {
-            MapView()
+        ScrollView {
+            MapView(coordinate: landmark.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height:300)
-            CircleImage()
+            CircleImage(image: landmark.image)
                 .offset(y:-130)
                 .padding(.bottom,-130)
             VStack (alignment: .leading) {
-                Text("Ada Lovelace")
+                Text(landmark.name)
                     .font(.title)
                 HStack {
-                    Text("La mère de l'informatique")
+                    Text(landmark.park)
                         .font(.subheadline)
                     Spacer()
-                    Text("Trop classe")
+                    Text(landmark.state)
                         .font(.subheadline)
                 }
                 .font(/*@START_MENU_TOKEN@*/.subheadline/*@END_MENU_TOKEN@*/)
                 .foregroundColor(.secondary)
                 Divider()
                     .frame(height:5)
-                    .background(.blue)
-                Text("About Ada")
+                    .background(.yellow)
+                Text("About \(landmark.name)")
                     .font(.title2)
-                Text("Description")
+                Text(landmark.description)
             }
             .padding()
-            Spacer()
         }
+        .navigationTitle(landmark.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LandmarkDetail(landmark: landmarks[0])
     }
 }
